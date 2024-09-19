@@ -14,6 +14,7 @@ header {
 
 nav{
     padding: 30px 145px 30px 30px;
+ 
     
 }
 .menu{
@@ -32,12 +33,23 @@ nav{
     font-size: 20px;
     text-decoration: none;
     padding: 0 20px;
+    transition: 0.2s ease;
+   
 }
+/* EFEITOS NO MENU */
+
+.letra:hover{
+    color: rgb(255, 179, 0);
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+
+
 
 /* BANNER */
 .banner{
     height: 500px;
-    background-image: url(Imagens/Fundo2.jpg);
+    background-image: url(Imagens/depositphotos_184311644-stock-photo-white-background-template-copy-space.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 100px;
@@ -46,7 +58,7 @@ nav{
 
 .texto-banner{
     margin: auto;
-    color: #fff;
+    color: #000000;
     width: 620px;
     padding: 90px 10px;
     text-align: center;
@@ -70,8 +82,9 @@ nav{
 /* BOXES - FOTOS */
 .boxes{
     display: flex;
-    padding: 50px 180px 0 180px;
+    padding: 60px 180px 0 90px;
     justify-content: space-around;
+    
 }
 
 
@@ -79,6 +92,7 @@ nav{
 .boxes img{
     width: 600px;
     height: 700px;
+    margin: 0 30px;
 }
 
 

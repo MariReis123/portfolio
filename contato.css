@@ -1,0 +1,186 @@
+body{
+    background-color: rgb(0, 0, 0);
+    background-image: url(Imagens/Fundo2.jpg);
+}
+
+/* CABEÇALHO */
+header {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+nav{
+    padding: 30px 145px 30px 30px;
+ 
+    
+}
+.menu{
+    list-style: none;
+    width: 600px;
+    display: flex; 
+    justify-content: space-between;
+    margin: auto;
+    }
+
+
+.menu a{
+    color: black;
+    font-family:  "Merriweather";
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0 20px;
+    transition: 0.2s ease;
+   
+}
+/* EFEITOS NO MENU */
+
+.letra:hover{
+    color: rgb(255, 179, 0);
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+
+
+
+/* BANNER */
+.banner{
+    height: 500px;
+    background-image: url(Imagens/Fundo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+
+}
+
+/* CONTATO FORMULÁRIO */
+form{
+    border-radius: 0.3em;
+    padding: 0.3em;
+ 
+}
+ 
+form input,
+form button {
+    font-size: 1.4em;
+    border-radius: 0.2em;
+    border: none;
+    padding: 0.2em;
+    font-family: 'Times New Roman', Times, serif;
+ 
+}
+ 
+form button {
+    cursor: pointer;
+    background: none;
+    
+}
+ 
+
+main {
+    width: 100%; /* Garante que o main ocupe toda a largura disponível */
+    padding: 100px 0; /* Ajuste o padding conforme necessário */
+    margin: 0 auto;
+}
+ 
+ 
+.formulario {
+    width: 700px;
+    margin: 100px 410px 100px 410px;
+    padding: 30px;
+    border: 1px solid #000000;
+    color: #000000;
+    margin-top: 150px;
+    padding: 80px 10 80px 10;
+    background-color: rgb(255, 255, 255);
+}
+ 
+.field {
+    width: 100%;
+    margin: 15px 0;
+    
+    
+}
+ 
+.field label,
+.field span {
+    padding-left: 15px;
+    font-size: 19px;
+    width: 100%;
+    font-family: "Arvo";
+    
+}
+ 
+.formulario h2 {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Merriweather";
+}
+ 
+ 
+ 
+
+ 
+ 
+textarea {
+    width: 100%;
+    padding-left: 5px;
+    /* border: 1px solid #000000; */
+}
+ 
+textarea {
+    line-height: 20px;
+    padding: 10px;
+    height: 90px;
+    /* border: 1px solid #000000; */
+ 
+}
+ 
+input[type=submit] {
+    display: block;
+    background-color: rgb(0, 0, 0);
+    width: 150px;
+    margin: 0 auto;
+    color: #ffffff;
+    transition: 0.3s ease;
+}
+
+input[type=submit]:hover{
+    background-color:rgb(255, 179, 0) ;
+    color: #000000;
+}
+
+ 
+
+ 
+
+
+/* FOOTER */
+footer {
+    margin-top: 35px;
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+  }
+
+.icones{
+    display: flex;
+    justify-content: center; /* Alinha os ícones horizontalmente */
+    margin-bottom: 10px;
+}
+
+.redes{
+    margin: 0 10px; /* Ajusta o espaçamento entre ícones */
+    height: 30px;
+    width: 30px;
+}
+
+.texto-telefone {
+    font-family: "Arvo";
+    color: black;
+}
