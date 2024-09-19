@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+/* CABEÇALHO */
+header {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+nav{
+    padding: 30px 145px 30px 30px;
+    
+}
+.menu{
+    list-style: none;
+    width: 600px;
+    display: flex; 
+    justify-content: space-between;
+    margin: auto;
+    }
+
+
+.menu a{
+    color: black;
+    font-family:  "Merriweather";
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+/* BANNER */
+.banner{
+    height: 500px;
+    background-image: url(Imagens/Fundo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+
+}
+
+.texto-banner{
+    margin: auto;
+    color: #fff;
+    width: 620px;
+    padding: 90px 10px;
+    text-align: center;
+    
+}
+
+.banner h1{
+    font-family: "Merriweather";
+    font-size: 90px;
+    font-weight: 800;
+    
+}
+
+.banner p{
+    font-family: "Arvo";
+    font-size: 40px;
+    font-style: italic;
+    padding-top: 0px 200px ;
+    text-align: center;
+}
+/* BOXES - FOTOS */
+.boxes{
+    display: flex;
+    padding: 50px 180px 0 180px;
+    justify-content: space-around;
+}
+
+
+
+.boxes img{
+    width: 600px;
+    height: 700px;
+}
+
+
+
+/* FOOTER */
+footer {
+    margin-top: 35px;
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+  }
+
+.icones{
+    display: flex;
+    justify-content: center; /* Alinha os ícones horizontalmente */
+    margin-bottom: 10px;
+}
+
+.redes{
+    margin: 0 10px; /* Ajusta o espaçamento entre ícones */
+    height: 30px;
+    width: 30px;
+}
+
+.texto-telefone {
+    font-family: "Arvo";
+    color: black;
+}
+
